@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="multi.css">
+</head>
+<body >
+    <div class="nav flex justify-between content-center bg-gray-800 pr-2 pl-2 ">
+        <div class="logo">
+            <img src="assets/Black And White King Logo.png" alt="logo" class=" max-w-[70px] bg-gray-800 max-sm:w-[60px]">
+        </div>
+        <ul class="flex gap-10 p-4 text-white max-sm:gap-3">
+            <li>Home</li>
+            <li>Projects</li>
+            <li>Articles</li>
+            <li><a href="contactus.html">Contact us</li></a>
+        </ul>
+    
+    
+    
+    </div>
+    
+    <div class=" bg-stone-600 content-center justify-items-center p-5">
+    
+        <form action="https://fabform.io/f/{form-id}" method="post">
+            <div class="bg-orange-900 p-8 rounded-lg shadow-lg max-w-md w-full">
+                <h1 class="text-2xl font-bold text-white mb-6">Contact Us</h1>
+                <form action="#" method="post">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-white">Name</label>
+                        <input type="text" id="name" name="name"
+                            class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                            placeholder="John Doe" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-white">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="border-2 border-gray-300 p-2 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                            placeholder="johndoe@example.com" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-white">Message</label>
+                        <textarea id="message" name="message"
+                            class="border-2 border-gray-300 p-2 rounded-lg w-full h-32 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                            placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit"
+                        class="bg-indigo-500 text-white p-2 rounded-lg font-semibold w-full hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">Send</button>
+                </form>
+                <div class="mt-4 text-sm text-white">
+                 contact us  for the best services always reliable and trustworthy for you  <a
+                        href="https://zaeeemafzal@gmail.com" class="underline"
+                        target="_blank">zaeeemafzal@gmail.com</a>.
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
