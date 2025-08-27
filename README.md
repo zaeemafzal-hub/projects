@@ -6,3 +6,5 @@ second project
 https://roadmap.sh/projects/basic-html-website
 portfolio project
 https://roadmap.sh/projects/portfolio-website
+change log project
+https://roadmap.sh/projects/changelog-component
