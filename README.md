@@ -16,3 +16,5 @@ tab  changing project
 https://roadmap.sh/projects/simple-tabs
 Cookie consent pop up
 https://roadmap.sh/projects/cookie-consent
+text area limit project 
+https://roadmap.sh/projects/restricted-textarea
