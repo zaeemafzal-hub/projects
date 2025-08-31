@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea limit</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="">
+        <div class="textarea p-5">
+            <h1 class="font-bold text-2xl pb-3"> Write a messsage </h1>
+
+            <textarea type="text" name="textarea" id="textarea" class="border w-[400px] h-[250px] p-6 text-clip  "
+                maxlength="250">
+            </textarea>
+            <span id="count">characters:0/250</span>
+        </div>
+    </div>
+    <script src="textarea.js"></script>
+</body>
+
+</html>
